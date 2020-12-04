@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang = "ru">
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "width=eveice-width, initial-scale=1, shrink-to-fit=no">
+		<link href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type = "text/css" rel = "stylesheet" crossorigin="anonymus">
+		<link href = "css/main.css" type = "text/css" rel = "stylesheet">
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.0.16/svg.min.js"></script>
+		<title>Modern Windows. Окна дёшево.</title>
+		<meta name="description" content="Ставим окна и двери дёшево."/>
+		<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	</head>
+	<body>
+		<section class = "hero">
+			<div class = "container pt-4">
+				<div class = "d-flex main_nabar">
+						<div class = "logo">
+							<img src = "images/logo_m.svg" class = "logo_liter" alt = "M">
+							<div class="logo_text">odern</div>
+							<img src = "images/logo_w.svg" class = "logo_liter" alt = "Modern Windows">
+							<div class="logo_text">indows</div>
+						</div>
+						<a href = "tel:+79191234567" class = "ml-auto mt-auto phone"> +7 (123) 456-78-90</a>
+				</div>
+				<div class = "row content pt-4" id = "content">
+					<div class = "col-sm-12 col-lg-6 title">
+						<h1 class= "h1 pt-4">Делаем современные окна и двери</h1>
+						<p class = "descrition"> 
+							Сделаем замеры за час, поставим окно за день. Качественные материалы, современный дизайн.
+						</p>
+						<button type="button" class = "btn btn-primary btn-lg" id = "price_pool_button">Узнать цену</button>
+					</div>
+					<div class = "col-sm-12 col-lg-6" id = "left_block">	
+					 <!--<img src = "/images/interier.jpg" class = "main_img">--> 
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="modal" id="pool_modal">
+			<button class="close_modal" id = "close_modal_button" type="button"><div class="close_button"><svg aria-label="Close" class="_8-yf5 " fill="#fff" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M41.8 9.8L27.5 24l14.2 14.2c.6.6.6 1.5 0 2.1l-1.4 1.4c-.6.6-1.5.6-2.1 0L24 27.5 9.8 41.8c-.6.6-1.5.6-2.1 0l-1.4-1.4c-.6-.6-.6-1.5 0-2.1L20.5 24 6.2 9.8c-.6-.6-.6-1.5 0-2.1l1.4-1.4c.6-.6 1.5-.6 2.1 0L24 20.5 38.3 6.2c.6-.6 1.5-.6 2.1 0l1.4 1.4c.6.6.6 1.6 0 2.2z" fill-rule="evenodd"></path></svg></div></button>
+			<div  class = "modal_dialog">
+				<div id = "pool_container"></div>
+				<div id = "drawing_block" class = "drawing_block modal-footer"></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src = "js/main.js"></script>
+</html>
